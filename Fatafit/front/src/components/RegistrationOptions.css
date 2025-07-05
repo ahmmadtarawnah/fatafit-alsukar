@@ -1,0 +1,149 @@
+.registration-options {
+  padding: 4rem 2rem;
+  background: linear-gradient(135deg, #f5f7fa 0%, #e4e8eb 100%);
+}
+
+.section-title {
+  text-align: center;
+  font-size: 2.5rem;
+  color: #333;
+  margin-bottom: 3rem;
+  font-weight: bold;
+}
+
+.options-container {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+  gap: 2rem;
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: 0 1rem;
+}
+
+.option-card {
+  background: white;
+  border-radius: 15px;
+  overflow: hidden;
+  box-shadow: 0 10px 20px rgba(0, 0, 0, 0.1);
+}
+
+.card-content {
+  padding: 2rem;
+  text-align: center;
+  border-top: 4px solid;
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  min-height: 250px;
+}
+
+.card-content h3 {
+  font-size: 1.5rem;
+  margin-bottom: 1rem;
+  font-weight: bold;
+}
+
+.card-content p {
+  color: #666;
+  line-height: 1.6;
+  margin-bottom: 1.5rem;
+}
+
+.register-button {
+  padding: 0.8rem 2rem;
+  border: none;
+  border-radius: 25px;
+  color: white;
+  font-size: 1rem;
+  cursor: pointer;
+  transition: transform 0.2s ease, box-shadow 0.2s ease;
+  width: 100%;
+  max-width: 200px;
+  margin: 0 auto;
+}
+
+.register-button:hover {
+  transform: translateY(-2px);
+  box-shadow: 0 5px 15px rgba(0, 0, 0, 0.2);
+}
+
+@media (max-width: 768px) {
+  .section-title {
+    font-size: 2rem;
+  }
+  
+  .options-container {
+    grid-template-columns: 1fr;
+  }
+  
+  .card-content {
+    min-height: 200px;
+  }
+}
+
+.registration-section {
+  background: linear-gradient(to bottom, #ffffff, #f8fafc);
+}
+
+.registration-section h2 {
+  background: linear-gradient(to right, #1e293b, #334155);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  background-clip: text;
+}
+
+/* Add smooth transitions */
+.registration-section a {
+  transition: all 0.3s ease;
+}
+
+/* Card hover effects */
+.registration-section .group:hover {
+  transform: translateY(-8px);
+}
+
+/* Gradient text for headings */
+.registration-section h3 {
+  background: linear-gradient(to right, #1e293b, #334155);
+  -webkit-background-clip: text;
+  background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+
+/* Smooth shadows */
+.registration-section .group {
+  transition: all 0.3s cubic-bezier(0.4, 0, 0.2, 1);
+}
+
+/* Card content styling */
+.registration-section .p-8 {
+  background: rgba(255, 255, 255, 0.9);
+  backdrop-filter: blur(10px);
+}
+
+/* Icon container animation */
+.registration-section .w-16 {
+  box-shadow: 0 10px 20px rgba(0, 0, 0, 0.1);
+}
+
+/* Button hover effect */
+.registration-section .inline-flex:hover {
+  transform: translateY(-2px);
+  box-shadow: 0 10px 20px rgba(0, 0, 0, 0.1);
+}
+
+/* Responsive adjustments */
+@media (max-width: 768px) {
+  .registration-section {
+    padding: 4rem 1rem;
+  }
+  
+  .registration-section h2 {
+    font-size: 2.5rem;
+  }
+  
+  .registration-section .grid {
+    gap: 2rem;
+  }
+} 

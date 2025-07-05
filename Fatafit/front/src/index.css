@@ -1,0 +1,14 @@
+@import "tailwindcss";
+
+/* Global styles to prevent horizontal scroll */
+html, body {
+  overflow-x: hidden;
+  width: 100%;
+  position: relative;
+}
+
+/* Ensure all elements respect container width */
+* {
+  max-width: 100%;
+  box-sizing: border-box;
+}
